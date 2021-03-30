@@ -169,7 +169,7 @@ def retrieve_password(email: str):
     else:
         return jsonify(message="That email doesn't exist")
 
-# Creating route for retrieving details
+# Creating route for retrieving details (CRUD)
 
 # database models
 class User(db.Model):
